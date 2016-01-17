@@ -1,5 +1,5 @@
 # Git Command Wall
-----------
+
 ### Config
 
 ```sh
