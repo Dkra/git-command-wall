@@ -6,16 +6,22 @@
 git config --global user.name "First Last"
 ```
 ```sh
-git config --global user.email "user@example.com" 
+git config --global user.email "user@example.com"
 ```
 ```sh
-git config --global color.ui true 
+git config --global color.ui true
 ```
 ```sh
-git config --global alias.st status 
+git config --global alias.st status
 ```
 ```sh
-git config -l 
+git config -l
+```
+
+### Status
+
+```sh
+git status
 ```
 
 ### Checkout
@@ -43,5 +49,3 @@ git checkout [branch]
 ```sh
 
 ```
-
-
