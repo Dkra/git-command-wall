@@ -3,21 +3,37 @@
 ### Config
 
 ```sh
-git config --global user.name "First Last"
+git config --global user.name "Your name"
 ```
+> - set usersame globally
+```sh
+git config user.name "Your name"
+```
+> - set username locally
 ```sh
 git config --global user.email "user@example.com"
 ```
+> - set username email
 ```sh
 git config --global color.ui true
 ```
 ```sh
 git config --global alias.st status
 ```
+> - git st will work as git status from now
 ```sh
+git config --list
 git config -l
 ```
-
+> - show all config at this file location
+```sh
+git config --global -l
+```
+> - show all global config
+```sh
+git config --global core.editor vim
+```
+> - open editor Vim when Git ask you to input messages
 
 
 ### Status
@@ -167,3 +183,5 @@ git checkout v1.0.0
 ```sh
 
 ```
+
+
